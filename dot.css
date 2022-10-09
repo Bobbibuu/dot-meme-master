@@ -1,0 +1,288 @@
+body{
+  background-color:#212529;
+  color: white;
+}
+
+.container {
+  width: 80%;
+  border: 1px solid bisque ; 
+}
+
+.header-left{
+  border: 1px solid bisque ; 
+  display: flex;
+  margin-left: 0em;
+  padding-left: 0%;
+}
+
+.menu {
+  border: 1px solid bisque ; 
+  margin-right: 2em;
+}
+
+.left-tags {
+  border: 1px solid bisque ; 
+  margin-right: 2em;
+
+}
+
+.logo{
+  color: white;
+  font-weight: bolder;
+  font-size: x-large;
+  border: 1px solid bisque ;
+  display: flex;
+  justify-content: center;
+}
+
+.header-right {
+  color: white;
+  border: 1px solid bisque ; 
+  display: flex;
+  justify-content: end;
+  flex-direction: row-reverse;
+
+}
+
+.right-tags {
+  border: 1px solid bisque ; 
+  margin-left: 2em;
+}
+
+.menu-button {
+  width: 25px;
+  height: 2px;
+  background-color: white;
+  margin: 4px 0;
+
+}
+
+.header {
+  margin-top: 0.75%;
+  margin-bottom: 3em;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.jable-carousel {
+  border: 1px solid bisque ; 
+}
+
+.hot {
+  border: 1px solid bisque ;
+  padding: 0%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: space-between;
+}
+
+.hot-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid bisque ;
+  padding-bottom: 1em;
+}
+
+.hot-title {
+  border: 1px solid bisque ; 
+  font-size: 14px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-height: 1.5em;
+}
+
+.hot-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hot-header-right{
+  border: 1px solid bisque ; 
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.hot-img {
+  border: 1px solid blue ; 
+  background-color: rgb(27, 27, 27);
+  display: flex;
+  align-content: center;
+  width: inherit;
+  height: 100%;
+  max-height: 207px;
+
+}
+
+.hot-img img{
+  display: flex;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.tag-section {
+  margin-top: 3em;
+  display: flex;
+  margin-bottom: 3em;
+  padding: 0%;
+}
+
+.empty-tag {
+  border: 1px solid bisque ;
+}
+
+.tag-box {
+  border: 1px solid bisque ;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 0%;
+
+}
+
+.tag {
+  border: 1px solid bisque ;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-overflow: clip;
+  overflow: hidden;
+  padding: 0%;
+}
+
+.tag h2 {
+  color: cadetblue;
+  margin: 0%;
+}
+
+.tag-more {
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 0em;
+  padding-bottom: 0.5em;
+}
+
+.all {
+  border: 1px solid bisque ;
+  padding: 0%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: space-between;
+}
+
+.all-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid bisque ;
+  padding-bottom: 1em;
+
+}
+
+.all-title {
+  font-size: 14px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-height: 1.5em;
+}
+
+.all-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.all-header-right{
+  border: 1px solid bisque ; 
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.all-img {
+  background-color: rgb(27, 27, 27);
+  border: 1px solid blue ; 
+  display: flex;
+  justify-content: center;
+  width: inherit;
+  height: 100%;
+  max-height: 207px;
+  align-content: center;
+}
+
+.all-img img{
+  display: flex;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.meme {
+  border: 1px solid bisque ;
+  padding: 0%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: auto;
+  width: 95%;
+  
+}
+
+.meme-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid bisque ;
+  padding-top: 30px;
+  padding-bottom: 1em;
+}
+
+.meme-img {
+  background-color: rgb(27, 27, 27);
+  border: 1px solid blue ; 
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: inherit;
+  height: 100%;
+  height: 405px;
+
+}
+
+.meme-img img{
+  display: flex;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+
+/* may can change flec direct to row  */
+/* width as uniform height and  */
+.input {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid bisque ;
+  min-height: 500px; 
+  padding: 0%;
+  padding-top: 25px;
+}
+
+
+/* image height + title height = min-height */
+.input-box {
+  background-color: black;
+  border: 1px solid bisque ;
+  width: 65%;
+  margin-left: 75px;
+  margin-bottom: 100px;
+  min-height: 90px;
+}
+
+.footer {
+  border: 1px solid bisque ;   
+}
